@@ -24,7 +24,7 @@ class NewsService extends ChangeNotifier {
   bool _isLoading = true;
 
   final _baseUrl = 'https://newsapi.org/v2';
-  final _apiKey = '?apiKey=abebf8208ee2419fae269a272bf4b4b6';
+  final _apiKey = '?apiKey=secret';
   List<Article> headLines = [];
   NewsService() {
     getTopHeadlines();
